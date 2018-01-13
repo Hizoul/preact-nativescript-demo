@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint:latest"],
+  "rules": {
+    "semicolon": [true, "never"],
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "object-literal-sort-keys": [false, "never"],
+    "no-submodule-imports": [false, "never"],
+    "no-implicit-dependencies": [false, "never"],
+    "forin": false,
+    "no-this-assignment": false
+  }
+}

@@ -1,0 +1,22 @@
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360); }
+}
+Image {
+  animation-name: spin; animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bigFont {
+  font-size: 50pt
+}
+
+.mainHeading {
+  font-size: 36pt;
+  color: blue
+}
+
+.bordered {
+  border-width: 2pt; border-color: #FF0000; font-size: 30pt;
+}

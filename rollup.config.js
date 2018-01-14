@@ -2,7 +2,7 @@
 import typescript from "rollup-plugin-typescript2"
 
 export default {
-  input: 'src/app.ts',
+  input: 'src/app.tsx',
   output: {
     file: 'app/app.js',
     format: 'cjs'
@@ -13,7 +13,9 @@ export default {
   external: [
     "tns-core-modules",
     "tns-core-modules/application",
+    "tns-core-modules/ui/dialogs",
     "preact-nativescript-components",
-    "preact-to-nativescript"
+    "preact-to-nativescript",
+    "preact"
   ]
 };

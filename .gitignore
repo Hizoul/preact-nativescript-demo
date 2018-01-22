@@ -10,3 +10,4 @@ tmp/
 typings/
 .idea
 .rpt2_cache
+app/app.js

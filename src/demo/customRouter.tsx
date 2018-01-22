@@ -3,7 +3,7 @@ import {
 } from "preact-nativescript-components"
 import { Component, goBack, h } from "preact-to-nativescript"
 
-class Route1 extends Component<any, any> {
+class MyRoute extends Component<any, any> {
   public render() {
     return (
       <StackLayout>
@@ -16,7 +16,7 @@ class Route1 extends Component<any, any> {
   }
 }
 
-class Route2 extends Component<any, any> {
+class OtherROute extends Component<any, any> {
   public render() {
     return (
       <StackLayout>
@@ -30,8 +30,8 @@ class Route2 extends Component<any, any> {
 }
 
 const routes = [
-  {default: true, path: "/", component: Route1},
-  {path: "/test", component: Route2}
+  {default: true, path: "/", component: MyRoute},
+  {path: "/test", component: OtherROute}
 ]
 
 class PageCustomRouter extends Component<any, any> {

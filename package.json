@@ -13,7 +13,7 @@
 		"nativescript-theme-core": "~1.0.4",
 		"preact": "^8.2.7",
 		"preact-nativescript-components": "0.0.6",
-		"preact-to-nativescript": "0.0.5",
+		"preact-to-nativescript": "0.0.7-1",
 		"tns-core-modules": "~3.4.0"
 	},
 	"devDependencies": {
@@ -21,7 +21,7 @@
 		"babel-types": "6.26.0",
 		"babylon": "6.18.0",
 		"lazy": "1.0.11",
-		"rollup": "^0.54.0",
+		"rollup": "^0.54.1",
 		"rollup-plugin-typescript2": "^0.10.0",
 		"typescript": "^2.6.2"
 	},

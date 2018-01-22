@@ -1,6 +1,6 @@
 # preact-to-nativescript Demo App
 
-![Demo](https://github.com/Hizoul/proposal-for-preact-to-nativescript/raw/master/demo.gif)
+![Demo](https://github.com/Hizoul/preact-nativescript-demo/raw/master/demo.gif)
 
 # Running
 ```bash

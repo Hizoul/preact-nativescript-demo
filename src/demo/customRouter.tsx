@@ -41,16 +41,16 @@ class PageCustomRouter extends Component<any, any> {
     super(props)
     this.state = {
       route: "/",
-      navStack: []
+      navStack: ["/"]
     }
     this.setNav = (newRoute: any) => {
-      const newStack = this.state.navStack.splice()
+      const newStack = this.state.navStack.slice(0)
       newStack.push(newRoute)
       this.setState({route: newRoute, navStack: newStack})
     }
     this.goBack = () => {
       if (this.state.navStack.length > 1) {
-        const newStack = this.state.navStack.splice()
+        const newStack = this.state.navStack.slice(0)
         newStack.pop()
         this.setState({route: newStack[newStack.length - 1], navStack: newStack})
       }
